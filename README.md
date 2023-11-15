@@ -7,6 +7,7 @@ Este projeto permite conferir os resultados da Mega-Sena, comparando os números
 - HTML
 - CSS
 - JavaScript
+- Java
 - [Bootstrap](https://getbootstrap.com/)
 - [xlsx (Excel)](https://github.com/SheetJS/sheetjs)
 - [Spring Boot](https://spring.io/projects/spring-boot)
