@@ -13,7 +13,7 @@ Este projeto permite conferir os resultados da Mega-Sena, comparando os números
 
 ## Sobre
 
-O projeto foi concebido com o objetivo de desenvolver um sistema utilizando Spring Boot como parte do curso de Métodos de Desenvolvimento. O sistema faz uso da tabela de resultados da Mega-Sena em formato Excel para realizar consultas sobre os ganhadores das seis dezenas. O usuário pode verificar se acertou algum conjunto de números previamente sorteados. Caso haja um acerto, o sistema exibirá informações para o usuário.
+O projeto foi concebido com o objetivo de desenvolver um sistema utilizando Spring Boot como parte da matéria de Métodos de Desenvolvimento. O sistema faz uso da tabela de resultados da Mega-Sena em formato Excel para realizar consultas sobre os ganhadores das seis dezenas. O usuário pode verificar se acertou algum conjunto de números previamente sorteados. Caso haja um acerto, o sistema exibirá informações para o usuário.
 Além disso, o sistema oferece a funcionalidade de permitir que o usuário faça seu próprio sorteio de números. Esses números podem ser conferidos em relação aos resultados anteriores.
 
 ## Layout
