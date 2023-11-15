@@ -133,7 +133,7 @@
             let cor = document.getElementById('inputFile');
 
             // Muda a cor do botão após a ação
-            cor.style.backgroundColor = '#28a745'; // Nova cor do botão
+            cor.style.backgroundColor = '#28a745'; // Nova cor do botão - Verde
 
             if (file) {
                 const reader = new FileReader();
@@ -147,17 +147,20 @@
 
                     // Itera sobre as células da coluna 3 até a coluna 8 e todas as linhas
                     for (let rowNum = 1; ; rowNum++) {
-                        // Construa a referência da célula (por exemplo, C1, D1, ..., H1)
-                        const colC = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 2 })]; // Coluna 3 (índice 2)
-                        const colD = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 3 })]; // Coluna 4 (índice 3)
-                        const colE = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 4 })]; // Coluna 5 (índice 4)
-                        const colF = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 5 })]; // Coluna 6 (índice 5)
-                        const colG = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 6 })]; // Coluna 7 (índice 6)
-                        const colH = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 7 })]; // Coluna 8 (índice 7)
-
-                        let a = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 1 })];
-                        let b = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 8 })];
-                        let c = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 10 })];
+                        //Pega as referencias das celulas, dos valores já sorteados da mega sena
+                        const colC = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 2 })]; // Coluna 3 
+                        const colD = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 3 })]; // Coluna 4 
+                        const colE = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 4 })]; // Coluna 5 
+                        const colF = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 5 })]; // Coluna 6 
+                        const colG = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 6 })]; // Coluna 7 
+                        const colH = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 7 })]; // Coluna 8 
+                        
+                        // Data do Sorteio
+                        const a = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 1 })]; // Coluna 2 
+                        //Quantidade de Ganhadores
+                        const b = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 8 })]; // Coluna 9
+                        //Valor Ganho
+                        const c = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 10 })]; // Coluna 11
 
                         if (!colC && !colD && !colE && !colF && !colG && !colH) {
                             break;
