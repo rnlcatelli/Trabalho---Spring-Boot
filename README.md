@@ -34,7 +34,7 @@ Além disso, o sistema oferece a funcionalidade de permitir que o usuário faça
 ## Instalação
 
 1. Clone este repositório.
-2. Abra o arquivo `index.html` em seu navegador.
+2. Abra o arquivo `TrabalhoFinalApplication` em sua IDE.
 
 ## Uso
 
