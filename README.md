@@ -1,7 +1,5 @@
 # Trabalho - Spring Boot
 
-![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
-
 Este projeto permite conferir os resultados da Mega-Sena, comparando os números digitados com os dados de sorteios passados. Além disso, oferece a funcionalidade de realizar um sorteio aleatório para verificação.
 
 ## Tecnologias Utilizadas
@@ -41,7 +39,3 @@ Além disso, o sistema oferece a funcionalidade de permitir que o usuário faça
 2. Digite seis números desejados nos campos correspondentes.
 3. Clique em "Verificar" para conferir os resultados.
 4. Utilize "Realizar Sorteio" para gerar números aleatórios e conferir os resultados.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
